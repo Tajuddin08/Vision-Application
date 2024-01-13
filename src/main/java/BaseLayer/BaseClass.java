@@ -38,7 +38,7 @@ public class BaseClass {
 
 	public static void initialize()
 	{
-		String url=prop.getProperty("URL");
+		String url=prop.getProperty("url");
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\AllDriver\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
